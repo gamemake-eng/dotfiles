@@ -1,6 +1,6 @@
 #Michealtheratz's fancy dotfile fetch script
 
-rm -r sway kitty waybar rofi mako
+rm -r sway kitty waybar rofi mako fastfetch logo
 
 yes "yes" | rm -r vim
 
@@ -21,3 +21,9 @@ cp -r ~/.config/rofi/* rofi
 
 mkdir mako
 cp -r ~/.config/mako/* mako
+
+mkdir fastfetch
+cp -r ~/.config/fastfetch/* fastfetch
+
+mkdir logo
+cp -r ~/.logo/neofetch-img.png logo
