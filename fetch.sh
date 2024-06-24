@@ -1,6 +1,6 @@
 #Michealtheratz's fancy dotfile fetch script
 
-rm -r sway kitty waybar
+rm -r sway kitty waybar rofi
 
 yes "yes" | rm -r vim
 
@@ -15,3 +15,6 @@ cp -r ~/.config/waybar/* waybar
 
 mkdir vim
 cp -r ~/.vim/vimrc vim
+
+mkdir rofi
+cp -r ~/.config/rofi/* rofi
