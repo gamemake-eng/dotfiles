@@ -26,4 +26,4 @@ mkdir fastfetch
 cp -r ~/.config/fastfetch/* fastfetch
 
 mkdir logo
-cp -r ~/.logo/neofetch-img.png logo
+cp -r ~/.logo/* logo
