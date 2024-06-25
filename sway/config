@@ -44,9 +44,23 @@ gaps inner 5
 gaps outer 0
 smart_gaps off
 
+default_border pixel 2
+default_floating_border pixel 2
+#font pango:FiraCode:style=Regular 10
+#titlebar_padding 2
+#titlebar_border_thickness 0
+
+#default_border none 
+
+blur enable
+blur_xray enable
+blur_radius 5
+corner_radius 10
+
+
 set $opacity 0.9
-#for_window [class=".*"] opacity $opacity
-#for_window [app_id=".*"] opacity $opacity
+for_window [class=".*"] opacity $opacity
+for_window [app_id=".*"] opacity $opacity
 
 
 
@@ -88,6 +102,8 @@ input type:touchpad {
     drag disabled
 
     dwt disabled
+
+    middle_emulation enabled
 }
 
 focus_follows_mouse no
