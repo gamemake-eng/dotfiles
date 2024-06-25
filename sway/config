@@ -120,11 +120,11 @@ focus_follows_mouse no
     bindsym XF86MonBrightnessDown exec light -U 5
 
     # Framework Laptop F4: XF86AudioPrev
-    bindsym XF86AudioPrev exec mpc prev
+    bindsym XF86AudioPrev exec playerctl previous
     # Framework Laptop F5: XF86AudioPlay
-    bindsym XF86AudioPlay exec mpc toggle
+    bindsym XF86AudioPlay exec playerctl play-pause
     # Framework Laptop F6: XF86AudioNext
-    bindsym XF86AudioNext exec mpc next
+    bindsym XF86AudioNext exec playerctl next
 
     # print
     bindsym Print exec grim - | wl-copy
