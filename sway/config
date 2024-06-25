@@ -53,7 +53,7 @@ default_floating_border pixel 2
 #default_border none 
 
 blur enable
-blur_xray enable
+blur_xray disable
 blur_radius 5
 corner_radius 10
 
