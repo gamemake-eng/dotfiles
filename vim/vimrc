@@ -142,6 +142,7 @@ call plug#begin()
     Plug 'tbastos/vim-lua'
     Plug 'junegunn/fzf'
     Plug 'scrooloose/nerdtree'
+    Plug 'jdonaldson/vaxe'
 "
 call plug#end()
 
