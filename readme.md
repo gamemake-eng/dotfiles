@@ -1,2 +1,3 @@
-!(dmenu)[dmenu.png]
-!(desktop)[desktop.png]
+![dmenu](dmenu.png)
+
+![desktop](desktop.png)
