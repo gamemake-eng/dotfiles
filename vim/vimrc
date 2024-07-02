@@ -143,6 +143,10 @@ call plug#begin()
     Plug 'junegunn/fzf'
     Plug 'scrooloose/nerdtree'
     Plug 'jdonaldson/vaxe'
+    Plug 'd86leader/vim-cpp-helper'
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    "Plug 'ycm-core/YouCompleteMe'
+    
 "
 call plug#end()
 
@@ -152,3 +156,4 @@ colorscheme catppuccin_mocha
 set laststatus=2
 let g:lightline = {'colorscheme': 'catppuccin_mocha'}
 "let g:airline_theme = 'catppuccin_mocha'
+set shell=zsh
