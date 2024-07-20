@@ -144,7 +144,7 @@ focus_follows_mouse no
     # Start a terminal
     bindsym $mod+Return exec $term
 
-    bindsym $mod+Shift+b exec firefox
+    bindsym $mod+Shift+b exec google-chrome
 
     # Kill focused window
     bindsym $mod+Shift+q kill
