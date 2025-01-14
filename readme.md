@@ -1,3 +1,1 @@
-![dmenu](dmenu.png)
-
-![desktop](desktop.png)
+Goofy ahh dotfiles
