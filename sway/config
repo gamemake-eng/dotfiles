@@ -59,8 +59,8 @@ corner_radius 10
 
 
 set $opacity 0.9
-for_window [class=".*"] opacity $opacity
-for_window [app_id=".*"] opacity $opacity
+#for_window [class=".*"] opacity $opacity
+#for_window [app_id=".*"] opacity $opacity
 
 
 
@@ -139,7 +139,7 @@ focus_follows_mouse no
     bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
     # website shortcut
-    bindsym XF86AudioMedia exec firefox https://community.frame.work/
+    bindsym XF86AudioMedia exec google-chrome https://community.frame.work/
 
     # Start a terminal
     bindsym $mod+Return exec $term

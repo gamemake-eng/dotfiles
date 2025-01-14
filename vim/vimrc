@@ -145,6 +145,8 @@ call plug#begin()
     Plug 'jdonaldson/vaxe'
     Plug 'd86leader/vim-cpp-helper'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'Glench/Vim-Jinja2-Syntax'
+    Plug 'Stoozy/vimcord'
     "Plug 'ycm-core/YouCompleteMe'
     
 "
